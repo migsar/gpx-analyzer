@@ -1,0 +1,14 @@
+{
+  "name": "gpx-analyzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "deno run --watch --allow-read --allow-write src/index.ts",
+    "demo": "yarn dev 2021_09_22_07_14.gpx",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
